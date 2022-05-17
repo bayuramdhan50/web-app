@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> BayMovies </title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="shortcut icon" href="img/fav-icon.png" type="img/x-icon">
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+	<header>
+		<div class="nav container">
+			<a href="index.html" class="logo">Bay<span>Movie</span></a>
+
+			<div class="search-box">
+				<input type="search" name="" id="search-input" placeholder="Search Movie">
+				<i class='bx bx-search' ></i>
+			</div>
+
+			<a href="#" class="user">
+				<img src="img/user.jpg" class="user-img"></img>
+			</a>
+
+			<nav class="navbar">
+				<a href="#home" class="nav-link nav-active">
+					<i class="bx bx-home"></i>
+					<span class="nav-link-title">Home</span>
+				</a>
+				<a href="#home" class="nav-link">
+					<i class='bx bxs-hot'></i>
+					<span class="nav-link-title">Trending</span>
+				</a>
+				<a href="#home" class="nav-link">
+					<i class='bx bx-compass' ></i>
+					<span class="nav-link-title">Explore</span>
+				</a>
+				<a href="#home" class="nav-link">
+					<i class='bx bx-tv' ></i>
+					<span class="nav-link-title">Movies</span>
+				</a>
+				<a href="#home" class="nav-link">
+					<i class='bx bx-heart' ></i>
+					<span class="nav-link-title">Favourite</span>
+				</a>
+			</nav>
+		</div>
+	</header>
+
+	<section class="home container" id="home">
+		<img src="img/home-background.png" class="home-img"></img>
+
+		<div class="home-text">
+			<h1 class="home-title">Hitman's Wife's <br>Bodyguard</h1>
+			<p>Realising 10 April</p>
+			<a href="#" class="watch-btn">
+				<i class='bx bx-right-arrow' ></i>
+				<span> Watch the trailer </span>
+			</a>
+		</div>
+	</section>
+
+	<section class="popular container" id="popular">
+		<div class="heading">
+			<h2 class="heading-title">Popular Movies</h2>
+		</div>
+
+		<div class="popular-content swiper">
+			<div class="swiper-wrapper">
+				
+				<div class="swiper-slide">
+					<img src="img/popular-movie-1.jpg" class="movie-box-img"></img>
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
+
+<script scr="index.js"></script>
+</body>
+</html>
