@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> BayMovies </title>
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="shortcut icon" href="img/fav-icon.png" type="img/x-icon">
 	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -65,21 +66,131 @@
 	<section class="popular container" id="popular">
 		<div class="heading">
 			<h2 class="heading-title">Popular Movies</h2>
+
+			<div class="swiper-btn">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
 		</div>
 
 		<div class="popular-content swiper">
 			<div class="swiper-wrapper">
 				
 				<div class="swiper-slide">
-					<img src="img/popular-movie-1.jpg" class="movie-box-img"></img>
+					<div class="movie-box">
+						<img src="img/popular-movie-1.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">Spider-Man: No Way Home</h2>
+							<span class="movie-type">Action</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>
+						
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="movie-box">
+						<img src="img/popular-movie-2.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">Jungle Cruise</h2>
+							<span class="movie-type">Action/Adventure</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="movie-box">
+						<img src="img/popular-movie-3.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">Loki</h2>
+							<span class="movie-type">Action</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>	
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="movie-box">
+						<img src="img/popular-movie-4.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">Squid Game</h2>
+							<span class="movie-type">Action/Drama</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>
+						
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="movie-box">
+						<img src="img/popular-movie-5.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">The Falcon and The Winter Soldier</h2>
+							<span class="movie-type">Action</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>
+						
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="movie-box">
+						<img src="img/popular-movie-6.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">Hawkeye</h2>
+							<span class="movie-type">Action</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>
+						
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="movie-box">
+						<img src="img/popular-movie-7.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">Agents of S.H.I.E.L.D.</h2>
+							<span class="movie-type">Action</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>
+						
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="movie-box">
+						<img src="img/popular-movie-8.jpg" class="movie-box-img">
+						<div class="box-text">
+							<h2 class="movie-title">The Flash</h2>
+							<span class="movie-type">Action/Sci-Fi</span>
+							<a href="#" class="watch-btn play-btn">
+								<i class='bx bx-right-arrow' ></i>
+							</div>
+						</img>
+						
+					</div>
 				</div>
 			</div>
-			<div class="swiper-button-next"></div>
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-pagination"></div>
+			
 		</div>
 	</section>
 
-<script scr="index.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
